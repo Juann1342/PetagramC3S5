@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityContacto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/miActionBarCn"
+            layout="@layout/action_bar">
+        </include>
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tvNombreContacto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/contacto_nombre"
+            android:layout_marginTop="50dp"
+            />
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tvEmailContacto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/contacto_email"/>
+
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tvMsjContacto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/contacto_mensaje"
+                />
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/enviarComentario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contacto_btn_enviar"
+                android:layout_alignParentBottom="true"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

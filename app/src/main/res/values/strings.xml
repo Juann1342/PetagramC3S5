@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Petagram3Week</string>
+    <string name="pnombre">nombre</string>
+    <string name="likes">5</string>
+    <string name="titulo_toolbar">Petagram</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="contacto_nombre">Nombre</string>
+    <string name="contacto_email">Email</string>
+    <string name="contacto_mensaje">Mensaje</string>
+    <string name="contacto_btn_enviar">Enviar</string>
+    <string name="aboutTitulo">Hola me llamo Juan</string>
+    <string name="aboutDesc">Soy Lic. en Tecnología <br /> dedicado al desarrollo de software.</string>
+    <string name="aboutFin">Si deseas contactarte conmigo <br /> puedes escribirme a <br /> emaildepruebacurso@gmail.com</string>
+    <string name="nombreP">Petaco</string>
+</resources>

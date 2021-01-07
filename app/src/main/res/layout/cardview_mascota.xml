@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvMascota"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    app:cardCornerRadius="10dp"
+    android:layout_gravity="center_horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="7dp"
+        android:layout_gravity="center_horizontal">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgFoto"
+            android:src="@drawable/pet1"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageButton
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/btnLike"
+                android:src="@drawable/dog_bone_white"
+                android:background="@null"
+                android:layout_marginLeft="20dp"
+                />
+
+        <TextView
+            android:id="@+id/tvNombreCV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pnombre"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvRatingCV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:text="@string/likes"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imgHueso"
+                android:layout_width="52dp"
+                android:layout_height="48dp"
+                android:src="@drawable/dog_bone_100" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
